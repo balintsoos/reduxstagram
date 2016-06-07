@@ -34,7 +34,6 @@
   "scripts": {
     "clean": "rimraf dist",
     "lint": "eslint .",
-    "prestart": "npm run lint",
     "start": "node src/devServer",
     "test": "npm run lint",
     "prebuild": "npm run clean",
