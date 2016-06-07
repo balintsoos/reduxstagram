@@ -5,7 +5,7 @@ import posts from './posts'
 import comments from './comments'
 
 const rootReducer = combineReducers({
-  router: routerReducer,
+  routing: routerReducer,
   posts,
   comments
 })
